@@ -39,7 +39,7 @@ export default class Container extends Component {
       this.setState({
          treasures: {
            ...this.state.treasures,
-           user: treasure.data
+           all: treasure.data
          }  
       })
      })
